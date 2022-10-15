@@ -2,6 +2,10 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 def frequencies(items):
-    frequencies = {}
-    # Your code goes here
+    
+    freqs = {}
+
+    for item in list(set(items)): # convert items to set and count each occurrence
+        freqs[ele] = test.count(item)
+
     return frequencies
