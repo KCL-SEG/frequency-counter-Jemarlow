@@ -3,9 +3,9 @@
 
 def frequencies(items):
     
-    freqs = {}
+    frequencies = {}
 
     for item in list(set(items)): # convert items to set and count each occurrence
-        freqs[ele] = test.count(item)
+        frequencies[ele] = test.count(item)
 
     return frequencies
